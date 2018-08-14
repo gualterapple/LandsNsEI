@@ -9,7 +9,7 @@
     using Models;
     using Newtonsoft.Json;
     using Plugin.Connectivity;
-    //using Domain;
+    using Domain;
 
     public class ApiService
     {
@@ -20,7 +20,7 @@
                 return new Response
                 {
                     IsSuccess = false,
-                    Message = "Por favor ligue-se a internet.",
+                    Message = "Please connect to internet.",
                 };
             }
 
