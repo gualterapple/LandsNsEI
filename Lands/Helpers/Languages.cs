@@ -36,6 +36,10 @@
         {
             get { return Resource.Rememberme; }
         }
+        public static string Menu
+        {
+            get { return Resource.Menu; }
+        }
 
     }
 }
