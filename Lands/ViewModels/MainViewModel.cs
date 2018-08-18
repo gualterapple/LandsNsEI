@@ -3,12 +3,19 @@
 namespace Lands.ViewModels
 {
     using System.Collections.Generic;
+    using System.Collections.ObjectModel;
     using Models;
+    using Helpers;
 
     public class MainViewModel
     {
         #region Properties
         public List<Land> LandsList
+        {
+            get;
+            set;
+        }
+        public ObservableCollection<MenuItemViewModel> Menus
         {
             get;
             set;
@@ -44,6 +51,33 @@ namespace Lands.ViewModels
         {
             instance = this;
             this.Login = new LoginViewModel();
+            this.LoadMenu();
+        }
+        #endregion
+
+        #region Methods
+        private void LoadMenu()
+        {
+            this.Menus = new ObservableCollection<MenuItemViewModel>();
+
+            this.Menus.Add(new MenuItemViewModel
+            {
+                Icon = "ic_settingsg",
+                PageName = "MyProfilePage",
+                Title = Languages.MyProfile,
+            });
+            this.Menus.Add(new MenuItemViewModel
+            {
+                Icon = "ic_charg",
+                PageName = "StaticsPage",
+                Title = Languages.Statics,
+            });
+            this.Menus.Add(new MenuItemViewModel
+            {
+                Icon = "ic_exitg",
+                PageName = "LoginPage",
+                Title = Languages.LogOut,
+            });
         }
         #endregion
 

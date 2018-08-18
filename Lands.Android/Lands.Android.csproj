@@ -94,6 +94,84 @@
     <Reference Include="Lands">
       <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
     </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.FFImageLoading">
@@ -111,12 +189,27 @@
     <PackageReference Include="Xamarin.FFImageLoading.Transformations">
       <Version>2.4.3.840</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="3.0.0.446417" />
-    <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="27.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.v4" Version="27.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="27.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="27.0.2" />
+    <PackageReference Include="Xamarin.Forms">
+      <Version>3.1.0.697729</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.Design">
+      <Version>27.0.2.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat">
+      <Version>27.0.2.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.v4">
+      <Version>27.0.2.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.v7.CardView">
+      <Version>27.0.2.1</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter">
+      <Version>27.0.2.1</Version>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>11.0.2</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implementations\Localize.cs" />
@@ -175,6 +268,9 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\ic_launcher_currency.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\ic_launcher_translation.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\ic_launcher_border.png" />
+    <AndroidResource Include="Resources\drawable\ic_exitg.png" />
+    <AndroidResource Include="Resources\drawable\ic_charg.png" />
+    <AndroidResource Include="Resources\drawable\ic_settingsg.png" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
