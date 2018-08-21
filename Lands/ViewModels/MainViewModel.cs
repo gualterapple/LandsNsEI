@@ -81,7 +81,7 @@ namespace Lands.ViewModels
         }
         #endregion
 
-        #region Singleton
+        #region Singleton1
         private static MainViewModel instance;
         public static MainViewModel GetInstance()
         {
