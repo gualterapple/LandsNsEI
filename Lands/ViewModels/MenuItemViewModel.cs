@@ -23,7 +23,7 @@
 		}
 		#endregion
 
-		#region Commands
+		#region Commands1
 		public ICommand NavigateCommand
 		{
 			get
