@@ -59,7 +59,7 @@
             this.IsEnabled = true;
 
             this.Email = "gualteraura2017@hotmail.com";
-            this.Password = "Gproducoes123_";
+            this.Password = "gproducoes123";
 
         }
         #endregion
