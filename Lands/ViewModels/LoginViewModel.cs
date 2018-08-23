@@ -56,10 +56,7 @@
             this.apiService = new ApiService();
 
             this.IsRemembered = true;
-            this.IsEnabled = true;
-
-            this.Email = "gualteraura2017@hotmail.com";
-            this.Password = "gproducoes123";
+			this.IsEnabled = true;
 
         }
         #endregion
