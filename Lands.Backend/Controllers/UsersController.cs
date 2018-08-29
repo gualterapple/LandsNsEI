@@ -2,10 +2,10 @@
 {
 
     using System.Data.Entity;
-    
+
     using System.Threading.Tasks;
     using System.Net;
-    
+
     using System.Web.Mvc;
     using Backend.Models;
     using Domain;
@@ -14,7 +14,7 @@
     [Authorize(Roles = "Admin")]
     public class UsersController : Controller
     {
-        
+
         private LocalDataContext db = new LocalDataContext();
 
         // GET: Users
@@ -49,7 +49,7 @@
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create (UserView view)
+        public async Task<ActionResult> Create(UserView view)
         {
             if (ModelState.IsValid)
             {
@@ -70,7 +70,7 @@
                 Email = view.Email,
                 FirstName = view.FirstName,
                 ImagePath = view.ImagePath,
-                LastName= view.LastName,
+                LastName = view.LastName,
                 Telephone = view.Telephone,
                 UserId = view.UserId,
             };
