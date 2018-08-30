@@ -49,9 +49,14 @@ namespace Lands.ViewModels
             get;
             set;
         }
-        #endregion
+		public RegisterViewModel Register
+		{
+			get;
+			set;
+		}
+		#endregion
 
-        #region Constructor
+		#region Constructor
         public MainViewModel()
         {
             instance = this;

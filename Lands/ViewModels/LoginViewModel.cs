@@ -1,15 +1,15 @@
 ﻿namespace Lands.ViewModels
 {
-    using System.Windows.Input;
-    using Xamarin.Forms;
-    using Services;
-    using System.ComponentModel;
-    using GalaSoft.MvvmLight.Command;
-    using Views;
+	using System.Windows.Input;
+	using Xamarin.Forms;
+	using Services;
+	using System.ComponentModel;
+	using GalaSoft.MvvmLight.Command;
+	using Views;
 	using Helpers;
+	using System;
 
-
-    public class LoginViewModel : BaseViewModel
+	public class LoginViewModel : BaseViewModel
     {
         #region Services
         private ApiService apiService;
@@ -154,12 +154,24 @@
 
             this.Email = string.Empty;
             this.Password = string.Empty;
-
-
-
+                     
         }
-        #endregion
-        //Veficando se está ok
 
-    }
+		public ICommand RegisterCommand
+		{
+			get
+            {
+				return new RelayCommand(Register);
+            }
+		}
+
+		private async void Register()
+		{
+			MainViewModel.GetInstance().Register = new RegisterViewModel();
+			await Application.Current.MainPage.Navigation.PushAsync(new RegisterPage());
+		}
+		#endregion
+		//Veficando se está ok
+
+	}
 }

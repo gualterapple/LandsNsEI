@@ -302,13 +302,16 @@
     <Reference Include="Lands">
       <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
     </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
+    <Reference Include="Lands">
+      <HintPath>..\Lands\bin\Debug\netstandard2.0\Lands.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xam.Plugin.Media">
       <Version>4.0.1.5</Version>
-    </PackageReference>
-    <PackageReference Include="Xam.Plugins.Forms.ImageCircle">
-      <Version>3.0.0.5</Version>
     </PackageReference>
     <PackageReference Include="Xam.Plugins.Settings">
       <Version>3.1.1</Version>
@@ -330,6 +333,9 @@
     </PackageReference>
     <PackageReference Include="Xamarin.Forms">
       <Version>3.1.0.697729</Version>
+    </PackageReference>
+    <PackageReference Include="Xam.Plugins.Forms.ImageCircle">
+      <Version>3.0.0.5</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
@@ -354,5 +360,6 @@
     <BundleResource Include="Resources\ic_charg.png" />
     <BundleResource Include="Resources\ic_settingsg.png" />
     <BundleResource Include="Resources\ic_launcher_menu.png" />
+    <BundleResource Include="Resources\no_image.png" />
   </ItemGroup>
 </Project>
