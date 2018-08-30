@@ -324,6 +324,10 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <ProjectReference Include="..\Lands.Domain\Lands.Domain.csproj">
+      <Project>{6c3309a1-0c03-4230-92b0-e605803cd0d3}</Project>
+      <Name>Lands.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Lands\Lands.csproj">
       <Project>{3508BAF0-05D2-492F-AF2F-1565373FCF30}</Project>
       <Name>Lands</Name>
